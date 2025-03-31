@@ -21,7 +21,7 @@ jobs:
       uses: docker/login-action@v3
       with:
         username: "guo_wang_113@163.com"
-        password: "wangguo@1131023"
+        password: "wangguo@1023113"
 
     - name: Build base image
       run: bash scripts/build-base-image.sh
